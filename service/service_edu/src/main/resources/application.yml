@@ -1,0 +1,24 @@
+#服务端口
+server:
+  port: 8081
+#服务名称
+#环境配置
+spring:
+  application:
+    name: service-edu
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://43.142.99.26:3306/guli_edu?characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 3333
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #返回json的全局时间格式
+
+#mybatis-plus日志级别
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
