@@ -1,0 +1,13 @@
+server:
+  port: 8002 #服务端口
+spring:
+  application:
+    name: service-oss
+aliyun:
+  oss:
+    file:
+     endpoint: oss-cn-hangzhou.aliyuncs.com
+     keyid: LTAI5t9N5Ak2qLLNRqL6sugC
+     keysecret: J5E6dMcs5xWP87w9IAum4xR68t7uNf
+     bucketname: gulifile-hhp
+
